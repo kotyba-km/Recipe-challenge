@@ -1,0 +1,40 @@
+body {
+    width: 100dvw;
+    min-height: 100dvh;
+    background-color: rgb(253, 233, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.cont {
+    width: 75vw;
+    margin: 40px 0;
+}
+img {
+    border-radius: 15px ;
+}
+ul {
+    list-style: disc;
+}
+li {
+    padding: 10px;
+}
+.title {
+    color: rgb(139, 74, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+hr {
+    margin: 20px auto;
+    width: 75%;
+    border: 1px dashed rgb(187, 187, 187);
+}
+@media (max-width:550px) {
+    .cont{
+        width: 100dvw;
+    }
+    .card {
+        min-width: 100vw !important;
+        padding: 6% !important;
+    }
+}
